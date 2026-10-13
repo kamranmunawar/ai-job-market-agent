@@ -1,99 +1,91 @@
+
 from job_search import SearchJobsTool
-from job_description_fetcher import JobDescriptionFetcherTool
-from skill_extractor import SkillExtractorTool
-from pathlib import Path
-from datetime import datetime
-from skill_normalizer import SkillNormalizerTool
+from job_processor import JobProcessor
+from job_deduplicator import JobDeduplicator
+from job_repository import JobRepository
+from job_storage import JobStorage
+
 
 def main():
-
     search_tool = SearchJobsTool()
-    description_tool = JobDescriptionFetcherTool()
-    skill_tool = SkillExtractorTool()
-    normalizer_tool = SkillNormalizerTool()
+    processor = JobProcessor()
+    deduplicator = JobDeduplicator()
+    repository = JobRepository()
+    storage = JobStorage()
 
-    # 1. Discover one job
+    # 1. Search for vacancies
     jobs = search_tool.search(
         query="AI Engineer",
-        results_per_page=1,
+        results_per_page=5
     )
 
     if not jobs:
         print("No jobs found.")
         return
 
-    job = jobs[0]
+    # 2. Remove duplicates within the search results
+    jobs = deduplicator.deduplicate(jobs)
 
-    print("\nJOB")
-    print("=" * 70)
-    print(f"Title: {job.title}")
-    print(f"Company: {job.company}")
-    print(f"Location: {job.location}")
+    print(f"\nUnique jobs retrieved: {len(jobs)}")
 
-    # 2. Fetch job description
-    print("\nFetching full job description...")
+    processed_jobs = []
+    skipped = 0
 
-    try:
-        description, source = description_tool.fetch(
-            job.url,
-            fallback_description=job.description
-        )
+    # 3. Process only new or previously failed jobs
+    for index, job in enumerate(jobs, start=1):
+        print(f"\nJob {index}/{len(jobs)}")
+        print(f"Title: {job.title}")
+        print(f"Company: {job.company}")
 
-        job.description = description
-        job.description_source = source
+        if job.job_id is None:
+            print("Skipped: Missing Adzuna job ID")
+            skipped += 1
+            continue
 
-        print(f"Description source: {job.description_source}")
-        print(f"Description length: {len(job.description)}")
+        status = repository.get_status(job.job_id)
 
-    except Exception as error:
-        job.processing_status = "failed"
-        print(f"Description retrieval failed: {error}")
+        if status == "completed":
+            print("Skipped: Already processed successfully")
+            skipped += 1
+            continue
 
-        print("\nPROCESSED JOB")
-        print(job.model_dump_json(indent=2))
-        return
+        if status == "failed":
+            print("Retrying previously failed job")
 
-    # 3. Extract skills using Qwen3.5
-    print("\nExtracting skills with Qwen3.5...")
+        try:
+            processed_job = processor.process(job)
+        except Exception as error:
+            job.processing_status = "failed"
+            processed_job = job
+            print(f"Unexpected processing error: {error}")
 
-    try:
-        raw_skills = skill_tool.extract(job.description)
+        # Save immediately after processing each job
+        repository.save(processed_job)
+        processed_jobs.append(processed_job)
 
-        print("\nRAW SKILLS")
-        print(raw_skills.model_dump_json(indent=2))
+        print(f"Status: {processed_job.processing_status}")
+        print(f"Description source: {processed_job.description_source}")
 
-        job.skills = normalizer_tool.normalize(raw_skills)
-        job.processing_status = "completed"
+    # 4. Export newly processed jobs to JSON
+    if processed_jobs:
+        output_file = storage.save(processed_jobs)
+        print(f"\nBatch JSON saved to: {output_file}")
 
-        print("\nNORMALISED SKILLS")
-        print(job.skills.model_dump_json(indent=2))
-
-    except Exception as error:
-        job.processing_status = "failed"
-        print(f"Skill processing failed: {error}")
-
-    # 4. Display extracted skills
-    if job.skills is not None:
-        print("\nSKILLS")
-        print("=" * 70)
-        print(job.skills.model_dump_json(indent=2))
-
-    # 5. Display final structured job
-    print("\nPROCESSED JOB")
-    print("=" * 70)
-    print(job.model_dump_json(indent=2))
-    output_dir = Path(__file__).resolve().parents[1] / "data"
-    output_dir.mkdir(parents=True, exist_ok=True)
-
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = output_dir / f"job_{timestamp}.json"
-
-    output_file.write_text(
-        job.model_dump_json(indent=2),
-        encoding="utf-8"
+    # 5. Summary
+    completed = sum(
+        job.processing_status == "completed"
+        for job in processed_jobs
     )
+    failed = len(processed_jobs) - completed
 
-    print(f"\nJob saved to: {output_file}")
+    print("\nBATCH SUMMARY")
+    print("=" * 70)
+    print(f"Jobs retrieved: {len(jobs)}")
+    print(f"New jobs processed: {len(processed_jobs)}")
+    print(f"Completed: {completed}")
+    print(f"Failed: {failed}")
+    print(f"Skipped: {skipped}")
+    print(f"Total jobs in database: {repository.count()}")
 
 
 if __name__ == "__main__":
