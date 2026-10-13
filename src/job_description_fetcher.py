@@ -19,22 +19,40 @@ class JobDescriptionFetcherTool:
         response = requests.get(
             str(url),
             headers=headers,
-            timeout=30,
+            timeout=30
         )
 
         response.raise_for_status()
 
-        print(f"Final URL: {response.url}")
-        print(f"Status: {response.status_code}")
-
         soup = BeautifulSoup(
             response.text,
-            "html.parser",
+            "html.parser"
         )
 
-        text = soup.get_text(
+        # Locate the actual job description
+        description_element = soup.select_one(
+            "section.adp-body"
+        )
+
+        if description_element is None:
+            raise ValueError(
+                "Job description section not found"
+            )
+
+        # Remove irrelevant elements within the description
+        for element in description_element.select(
+            "script, style, noscript"
+        ):
+            element.decompose()
+
+        description = description_element.get_text(
             separator="\n",
-            strip=True,
+            strip=True
         )
 
-        return text
+        if len(description) < 100:
+            raise ValueError(
+                "Job description is unexpectedly short"
+            )
+
+        return description
