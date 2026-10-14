@@ -38,6 +38,32 @@ class SkillNormalizerTool:
 
         "gcp": "Google Cloud Platform",
         "google cloud platform": "Google Cloud Platform",
+        "agentic workflows": "Agentic Workflows",
+        "embeddings": "Embeddings",
+        "docker": "Docker",
+        "kubernetes": "Kubernetes",
+        "mlops": "MLOps",
+        "llmops": "LLMOps",
+        "llm": "Large Language Models",
+        "llms": "Large Language Models",
+        "large language model": "Large Language Models",
+        "large language models": "Large Language Models",
+
+        "ml": "Machine Learning",
+        "machine learning": "Machine Learning",
+        "machine_learning": "Machine Learning",
+
+        "genai": "Generative AI",
+        "generative ai": "Generative AI",
+
+        "rag": "Retrieval-Augmented Generation",
+        "retrieval augmented generation": "Retrieval-Augmented Generation",
+        "retrieval-augmented generation": "Retrieval-Augmented Generation",
+
+        "mlops": "MLOps",
+        "ml ops": "MLOps",
+        "ml_ops": "MLOps",
+
     }
 
     def normalize_skill(self, skill: str) -> str:
@@ -48,6 +74,28 @@ class SkillNormalizerTool:
             lookup_key,
             cleaned
         )
+
+    @staticmethod
+    def clean_skill_list(skills: list[str]) -> list[str]:
+        cleaned = []
+        seen = set()
+
+        for skill in skills:
+            if not isinstance(skill, str):
+                continue
+
+            skill = skill.strip()
+
+            if not skill:
+                continue
+
+            key = skill.casefold()
+
+            if key not in seen:
+                seen.add(key)
+                cleaned.append(skill)
+
+        return cleaned
 
     def normalize(self, skills: Skills) -> Skills:
 
@@ -67,6 +115,6 @@ class SkillNormalizerTool:
                     seen.add(key)
                     normalized_skills.append(normalized_skill)
 
-            normalized_data[category] = normalized_skills
+            normalized_data[category] = self.clean_skill_list(normalized_skills)
 
         return Skills.model_validate(normalized_data)

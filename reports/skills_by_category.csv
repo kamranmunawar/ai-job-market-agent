@@ -1,0 +1,633 @@
+category,skill,job_count,category_jobs,percentage
+AI Engineer,Python,11,19,57.89
+AI Engineer,Agentic AI,10,19,52.63
+AI Engineer,Large Language Models,6,19,31.58
+AI Engineer,Generative AI,6,19,31.58
+AI Engineer,Azure,5,19,26.32
+AI Engineer,AWS,5,19,26.32
+AI Engineer,Google Cloud Platform,4,19,21.05
+AI Engineer,Kubernetes,3,19,15.79
+AI Engineer,Retrieval-Augmented Generation,3,19,15.79
+AI Engineer,LangChain,3,19,15.79
+AI Engineer,Semantic Kernel,2,19,10.53
+AI Engineer,LlamaIndex,2,19,10.53
+AI Engineer,Docker,2,19,10.53
+AI Engineer,Machine Learning,2,19,10.53
+AI Engineer,Agentic Workflows,2,19,10.53
+AI Engineer,CI/CD,2,19,10.53
+AI Engineer,Large Language Models (LLMs),2,19,10.53
+AI Engineer,Retrieval-Augmented Generation (RAG),2,19,10.53
+AI Engineer,AI,2,19,10.53
+AI Engineer,C#,2,19,10.53
+AI Engineer,retrieval strategies,2,19,10.53
+AI Engineer,multi-agent orchestration,2,19,10.53
+AI Engineer,LangGraph,2,19,10.53
+AI Engineer,SAP BTP,1,19,5.26
+AI Engineer,LLMOps,1,19,5.26
+AI Engineer,MLOps,1,19,5.26
+AI Engineer,PyTorch,1,19,5.26
+AI Engineer,Embeddings,1,19,5.26
+AI Engineer,Data Science,1,19,5.26
+AI Engineer,scikit-learn,1,19,5.26
+AI Engineer,FastAPI,1,19,5.26
+AI Engineer,SQL,1,19,5.26
+AI Engineer,Pandas,1,19,5.26
+AI Engineer,NumPy,1,19,5.26
+AI Engineer,Large Language Model (LLM),1,19,5.26
+AI Engineer,Weaviate,1,19,5.26
+AI Engineer,JavaScript,1,19,5.26
+AI Engineer,Pinecone,1,19,5.26
+AI Engineer,orchestration frameworks,1,19,5.26
+AI Engineer,FAISS,1,19,5.26
+AI Engineer,prompt engineering,1,19,5.26
+AI Engineer,Multi-Agent Systems,1,19,5.26
+AI Engineer,Azure AI Search,1,19,5.26
+AI Engineer,audio-processing pipelines,1,19,5.26
+AI Engineer,vector database architectures,1,19,5.26
+AI Engineer,prompt evaluation,1,19,5.26
+AI Engineer,Artificial Intelligence,1,19,5.26
+AI Engineer,Model Context Protocol (MCP),1,19,5.26
+AI Engineer,Java,1,19,5.26
+AI Engineer,AutoGen,1,19,5.26
+AI Engineer,LangSmith,1,19,5.26
+AI Engineer,Hugging Face,1,19,5.26
+AI Engineer,Context engineering,1,19,5.26
+AI Engineer,RAG pipelines (Retrieval-Augmented Generation),1,19,5.26
+AI Engineer,Knowledge graphs,1,19,5.26
+AI Engineer,Prompt engineering,1,19,5.26
+AI Engineer,Agent frameworks,1,19,5.26
+AI Engineer,"Genie Platform (reason, retrieve, act)",1,19,5.26
+AI Engineer,Vector Databases,1,19,5.26
+AI Engineer,Model evaluation,1,19,5.26
+AI Engineer,LLMOps tools,1,19,5.26
+AI Engineer,TruLens,1,19,5.26
+AI Engineer,Agentic architectures,1,19,5.26
+AI Engineer,DevOps practices,1,19,5.26
+AI Engineer,DevSecOps practices,1,19,5.26
+AI Engineer,agentic solutions,1,19,5.26
+AI Engineer,Microsoft P...,1,19,5.26
+AI Engineer,autonomous systems,1,19,5.26
+AI Engineer,Azure AI,1,19,5.26
+AI Engineer,neural network resilience,1,19,5.26
+AI Engineer,object detection,1,19,5.26
+AI Engineer,AI assurance,1,19,5.26
+AI Engineer,Agentic Engineering,1,19,5.26
+AI Engineer,agentic systems,1,19,5.26
+AI Engineer,OpenTelemetry,1,19,5.26
+AI Engineer,Terraform,1,19,5.26
+AI Engineer,MCP servers,1,19,5.26
+AI Engineer,Prometheus,1,19,5.26
+AI Engineer,sandboxing,1,19,5.26
+AI Engineer,Grafana,1,19,5.26
+AI Engineer,observability tooling,1,19,5.26
+AI Engineer,tool-use,1,19,5.26
+AI Engineer,prompt construction,1,19,5.26
+AI Engineer,fine-tuning,1,19,5.26
+AI Engineer,evaluation and observability for AI systems,1,19,5.26
+AI Engineer,LoRA,1,19,5.26
+AI Engineer,memory (AI),1,19,5.26
+AI Engineer,gRPC,1,19,5.26
+AI Engineer,Pydantic AI,1,19,5.26
+AI Engineer,C++,1,19,5.26
+AI Engineer,DPO,1,19,5.26
+AI Engineer,MCPs,1,19,5.26
+AI Engineer,foundation models,1,19,5.26
+AI Engineer,multi-step workflows,1,19,5.26
+AI Engineer,knowledge engineering,1,19,5.26
+AI Engineer,AI/ML,1,19,5.26
+AI Engineer,LLM integration,1,19,5.26
+AI Engineer,agent augmentation,1,19,5.26
+AI Engineer,context management,1,19,5.26
+AI Engineer,production AI agent engineering,1,19,5.26
+AI Engineer,evaluation pipelines,1,19,5.26
+AI Engineer,model selection and routing,1,19,5.26
+AI Engineer,tool use,1,19,5.26
+AI Engineer,agent behaviour,1,19,5.26
+AI Engineer,retrieval,1,19,5.26
+AI Engineer,prompting,1,19,5.26
+AI Engineer,scalsible agentic AI platforms,1,19,5.26
+AI Engineer,retrieval-augmented generation (RAG),1,19,5.26
+AI Engineer,production,1,19,5.26
+AI Engineer,LLM-powered systems,1,19,5.26
+AI Engineer,evaluations,1,19,5.26
+AI Engineer,testing,1,19,5.26
+Data Scientist,Python,9,18,50.0
+Data Scientist,Machine Learning,6,18,33.33
+Data Scientist,Agentic AI,5,18,27.78
+Data Scientist,SQL,4,18,22.22
+Data Scientist,Large Language Models,4,18,22.22
+Data Scientist,CI/CD,4,18,22.22
+Data Scientist,Generative AI,4,18,22.22
+Data Scientist,PySpark,3,18,16.67
+Data Scientist,Retrieval-Augmented Generation,3,18,16.67
+Data Scientist,MLOps,3,18,16.67
+Data Scientist,MLflow,3,18,16.67
+Data Scientist,R,3,18,16.67
+Data Scientist,Git,2,18,11.11
+Data Scientist,regression,2,18,11.11
+Data Scientist,PowerBI,2,18,11.11
+Data Scientist,ML models,2,18,11.11
+Data Scientist,ECR,2,18,11.11
+Data Scientist,Weights & Biases,2,18,11.11
+Data Scientist,graph databases,2,18,11.11
+Data Scientist,Docker,2,18,11.11
+Data Scientist,containerisation,2,18,11.11
+Data Scientist,Neo4j,2,18,11.11
+Data Scientist,AWS ECS,2,18,11.11
+Data Scientist,Ray,2,18,11.11
+Data Scientist,Data Science,2,18,11.11
+Data Scientist,multi-agent systems,2,18,11.11
+Data Scientist,Hadoop,2,18,11.11
+Data Scientist,Go,2,18,11.11
+Data Scientist,orchestration frameworks,2,18,11.11
+Data Scientist,NoSql data modelling,2,18,11.11
+Data Scientist,statistical modelling,2,18,11.11
+Data Scientist,machine learning algorithms,2,18,11.11
+Data Scientist,optimisation techniques,2,18,11.11
+Data Scientist,observability,2,18,11.11
+Data Scientist,Spark,2,18,11.11
+Data Scientist,C++,2,18,11.11
+Data Scientist,tool use,2,18,11.11
+Data Scientist,autonomous agents,2,18,11.11
+Data Scientist,Java,2,18,11.11
+Data Scientist,Vertex AI,1,18,5.56
+Data Scientist,Google Cloud Platform (GCP),1,18,5.56
+Data Scientist,Unity Catalog,1,18,5.56
+Data Scientist,Pandas,1,18,5.56
+Data Scientist,recommendation algorithms,1,18,5.56
+Data Scientist,optimisation problems,1,18,5.56
+Data Scientist,Databricks Model Registry,1,18,5.56
+Data Scientist,Data Studio/Looker Studio,1,18,5.56
+Data Scientist,ETL pipelines,1,18,5.56
+Data Scientist,Numpy,1,18,5.56
+Data Scientist,classification,1,18,5.56
+Data Scientist,scikit-learn,1,18,5.56
+Data Scientist,LangChain,1,18,5.56
+Data Scientist,time-series,1,18,5.56
+Data Scientist,statistical analysis,1,18,5.56
+Data Scientist,TensorFlow,1,18,5.56
+Data Scientist,PyTorch,1,18,5.56
+Data Scientist,A/B testing,1,18,5.56
+Data Scientist,LangGraph,1,18,5.56
+Data Scientist,predictive analytics,1,18,5.56
+Data Scientist,Azure,1,18,5.56
+Data Scientist,Spark SQL,1,18,5.56
+Data Scientist,Azure Databricks,1,18,5.56
+Data Scientist,technical_leadership,1,18,5.56
+Data Scientist,cybersecurity_analytics,1,18,5.56
+Data Scientist,GraphRAG,1,18,5.56
+Data Scientist,attack_path_analysis,1,18,5.56
+Data Scientist,Security_Knowledge_Graphs,1,18,5.56
+Data Scientist,exposure_prioritization,1,18,5.56
+Data Scientist,semantic_modeling,1,18,5.56
+Data Scientist,graph_engineering,1,18,5.56
+Data Scientist,threat_investigation,1,18,5.56
+Data Scientist,data_science,1,18,5.56
+Data Scientist,AI-assisted_securitization,1,18,5.56
+Data Scientist,Bayesian,1,18,5.56
+Data Scientist,causal inference model,1,18,5.56
+Data Scientist,Looker,1,18,5.56
+Data Scientist,Geolift test,1,18,5.56
+Data Scientist,statistics,1,18,5.56
+Data Scientist,PyMc,1,18,5.56
+Data Scientist,econometric modelling,1,18,5.56
+Data Scientist,Meridian,1,18,5.56
+Data Scientist,Robyn,1,18,5.56
+Data Scientist,experimental design,1,18,5.56
+Data Scientist,MLOps tools,1,18,5.56
+Data Scientist,data science,1,18,5.56
+Data Scientist,containers,1,18,5.56
+Data Scientist,agent-based systems,1,18,5.56
+Data Scientist,time-series models,1,18,5.56
+Data Scientist,vision models,1,18,5.56
+Data Scientist,Hive,1,18,5.56
+Data Scientist,model lifecycle management,1,18,5.56
+Data Scientist,continuous deployment and release,1,18,5.56
+Data Scientist,big data technologies,1,18,5.56
+Data Scientist,Cloud Platforms,1,18,5.56
+Data Scientist,Agentic AI concepts,1,18,5.56
+Data Scientist,service operations,1,18,5.56
+Data Scientist,monitoring,1,18,5.56
+Data Scientist,retrieval-augmented generation (RAG),1,18,5.56
+Data Scientist,deep learning,1,18,5.56
+Data Scientist,relational data modeling,1,18,5.56
+Data Scientist,configuration management and release,1,18,5.56
+Data Scientist,multi-agent orchestration,1,18,5.56
+Data Scientist,Agility core practices,1,18,5.56
+Data Scientist,distributed systems,1,18,5.56
+Data Scientist,testing,1,18,5.56
+Data Scientist,reasoning workflows,1,18,5.56
+Data Scientist,Scripting,1,18,5.56
+Data Scientist,monitoring systems,1,18,5.56
+Data Scientist,Software Design and Development,1,18,5.56
+Data Scientist,Documentation and knowledge sharing,1,18,5.56
+Data Scientist,agent-driven scientific discovery,1,18,5.56
+Data Scientist,scientific computing,1,18,5.56
+Data Scientist,reliability engineering,1,18,5.56
+Data Scientist,multimodal systems,1,18,5.56
+Data Scientist,MLOps platforms,1,18,5.56
+Data Scientist,scalable architectures,1,18,5.56
+Data Scientist,Relational Data Modeling,1,18,5.56
+Data Scientist,Database Design,1,18,5.56
+Data Scientist,API design,1,18,5.56
+Data Scientist,autonomic agent design,1,18,5.56
+LLM Engineer,Large Language Models,19,26,73.08
+LLM Engineer,Python,14,26,53.85
+LLM Engineer,Machine Learning,8,26,30.77
+LLM Engineer,MLOps,7,26,26.92
+LLM Engineer,AWS,6,26,23.08
+LLM Engineer,PyTorch,5,26,19.23
+LLM Engineer,CI/CD,5,26,19.23
+LLM Engineer,Agentic AI,5,26,19.23
+LLM Engineer,Generative AI,4,26,15.38
+LLM Engineer,Azure,3,26,11.54
+LLM Engineer,NLP,3,26,11.54
+LLM Engineer,deep learning,3,26,11.54
+LLM Engineer,LangGraph,3,26,11.54
+LLM Engineer,Git,3,26,11.54
+LLM Engineer,Docker,3,26,11.54
+LLM Engineer,conversational AI,3,26,11.54
+LLM Engineer,orchestration,3,26,11.54
+LLM Engineer,Google Cloud Platform,2,26,7.69
+LLM Engineer,Agentic Workflows,2,26,7.69
+LLM Engineer,GitHub Actions,2,26,7.69
+LLM Engineer,fine-tuning,2,26,7.69
+LLM Engineer,prompt engineering,2,26,7.69
+LLM Engineer,AI,2,26,7.69
+LLM Engineer,APIs,2,26,7.69
+LLM Engineer,JAX,2,26,7.69
+LLM Engineer,Model Context Protocol (MCP),2,26,7.69
+LLM Engineer,FastAPI,2,26,7.69
+LLM Engineer,agent-to-agent communication,2,26,7.69
+LLM Engineer,distributed training,2,26,7.69
+LLM Engineer,vLLM,2,26,7.69
+LLM Engineer,tool calling,2,26,7.69
+LLM Engineer,React,2,26,7.69
+LLM Engineer,microservices,2,26,7.69
+LLM Engineer,Retrieval-Augmented Generation,2,26,7.69
+LLM Engineer,Functions,2,26,7.69
+LLM Engineer,Cognitive Services,2,26,7.69
+LLM Engineer,RESTful APIs,2,26,7.69
+LLM Engineer,Next.js,2,26,7.69
+LLM Engineer,MySQL,2,26,7.69
+LLM Engineer,App Services,2,26,7.69
+LLM Engineer,containerisation,2,26,7.69
+LLM Engineer,Kubernetes,2,26,7.69
+LLM Engineer,AI agent workflows,2,26,7.69
+LLM Engineer,quality dashboards,1,26,3.85
+LLM Engineer,multi-step and agentic systems,1,26,3.85
+LLM Engineer,Vertex AI,1,26,3.85
+LLM Engineer,BigQuery,1,26,3.85
+LLM Engineer,automated scoring pipelines,1,26,3.85
+LLM Engineer,LLM-as-judge systems,1,26,3.85
+LLM Engineer,rubric-based grading,1,26,3.85
+LLM Engineer,prompting techniques,1,26,3.85
+LLM Engineer,agent architectures,1,26,3.85
+LLM Engineer,agentic AI systems,1,26,3.85
+LLM Engineer,inference optimisation,1,26,3.85
+LLM Engineer,regression testing suites,1,26,3.85
+LLM Engineer,frontier LLMs,1,26,3.85
+LLM Engineer,chained multi-agent architectures,1,26,3.85
+LLM Engineer,MongoDB Atlas Vector Search,1,26,3.85
+LLM Engineer,rerankers,1,26,3.85
+LLM Engineer,data indexing,1,26,3.85
+LLM Engineer,vector embeddings,1,26,3.85
+LLM Engineer,object detection,1,26,3.85
+LLM Engineer,Ultralytics YOLO26,1,26,3.85
+LLM Engineer,YOLO,1,26,3.85
+LLM Engineer,YOLO framework,1,26,3.85
+LLM Engineer,multimodal solutions,1,26,3.85
+LLM Engineer,RAG pipeline,1,26,3.85
+LLM Engineer,performance optimization,1,26,3.85
+LLM Engineer,LiteLLM,1,26,3.85
+LLM Engineer,MongoDB,1,26,3.85
+LLM Engineer,computer vision,1,26,3.85
+LLM Engineer,CI/CD pipelines,1,26,3.85
+LLM Engineer,Agent frameworks,1,26,3.85
+LLM Engineer,Vector Databases,1,26,3.85
+LLM Engineer,orchestration systems,1,26,3.85
+LLM Engineer,open-weight models,1,26,3.85
+LLM Engineer,reusable skills,1,26,3.85
+LLM Engineer,monoagents,1,26,3.85
+LLM Engineer,shared memory,1,26,3.85
+LLM Engineer,agentic,1,26,3.85
+LLM Engineer,capabilities,1,26,3.85
+LLM Engineer,performance evaluation,1,26,3.85
+LLM Engineer,reliability,1,26,3.85
+LLM Engineer,Build,1,26,3.85
+LLM Engineer,operate,1,26,3.85
+LLM Engineer,agent,1,26,3.85
+LLM Engineer,LLM agents,1,26,3.85
+LLM Engineer,A2A,1,26,3.85
+LLM Engineer,Agentic Orchestrators,1,26,3.85
+LLM Engineer,Azure OpenAI models,1,26,3.85
+LLM Engineer,AWS Bedrock,1,26,3.85
+LLM Engineer,agentic solutions,1,26,3.85
+LLM Engineer,agentic orchestrators,1,26,3.85
+LLM Engineer,AI skills development,1,26,3.85
+LLM Engineer,NoSQL databases,1,26,3.85
+LLM Engineer,personal AI assistants,1,26,3.85
+LLM Engineer,containerization,1,26,3.85
+LLM Engineer,Agentic Systems,1,26,3.85
+LLM Engineer,Triton,1,26,3.85
+LLM Engineer,foundational models,1,26,3.85
+LLM Engineer,low-precision methods,1,26,3.85
+LLM Engineer,CUDA,1,26,3.85
+LLM Engineer,compilers,1,26,3.85
+LLM Engineer,collective communication libraries,1,26,3.85
+LLM Engineer,parallelism strategies,1,26,3.85
+LLM Engineer,accelerator DSLs,1,26,3.85
+LLM Engineer,inference systems,1,26,3.85
+LLM Engineer,GPU architectures,1,26,3.85
+LLM Engineer,LLM serving stacks,1,26,3.85
+LLM Engineer,supervised fine-tuning,1,26,3.85
+LLM Engineer,frontier models,1,26,3.85
+LLM Engineer,XLA,1,26,3.85
+LLM Engineer,Pallas,1,26,3.85
+LLM Engineer,production systems,1,26,3.85
+LLM Engineer,reinforcement learning,1,26,3.85
+LLM Engineer,low-precision formats,1,26,3.85
+LLM Engineer,NCCL,1,26,3.85
+LLM Engineer,DeepSpeed,1,26,3.85
+LLM Engineer,transformer-based approaches,1,26,3.85
+LLM Engineer,Weights & Biases,1,26,3.85
+LLM Engineer,TensorRT,1,26,3.85
+LLM Engineer,TeamCity,1,26,3.85
+LLM Engineer,Kubeflow,1,26,3.85
+LLM Engineer,K8s,1,26,3.85
+LLM Engineer,NVIDIA GPUs,1,26,3.85
+LLM Engineer,HuggingFace,1,26,3.85
+LLM Engineer,foundation models,1,26,3.85
+LLM Engineer,pre-training,1,26,3.85
+LLM Engineer,SGLang,1,26,3.85
+LLM Engineer,KServe,1,26,3.85
+LLM Engineer,production deployment,1,26,3.85
+LLM Engineer,post-training quantization,1,26,3.85
+LLM Engineer,transformer inference systems,1,26,3.85
+LLM Engineer,Triton Inference Server,1,26,3.85
+LLM Engineer,distillation,1,26,3.85
+LLM Engineer,quantization-aware training,1,26,3.85
+LLM Engineer,Ray Serve,1,26,3.85
+LLM Engineer,NVIDIA Dynamo,1,26,3.85
+LLM Engineer,benchmark harnesses,1,26,3.85
+LLM Engineer,speculative decoding,1,26,3.85
+LLM Engineer,VLM,1,26,3.85
+LLM Engineer,structured outputs,1,26,3.85
+LLM Engineer,multi-step orchestration,1,26,3.85
+LLM Engineer,TensorRT-LLM,1,26,3.85
+LLM Engineer,Mistral,1,26,3.85
+LLM Engineer,JavaScript/TypeScript,1,26,3.85
+LLM Engineer,voice-agent,1,26,3.85
+LLM Engineer,LLaMA,1,26,3.85
+LLM Engineer,DTAC,1,26,3.85
+LLM Engineer,GPT,1,26,3.85
+LLM Engineer,GDPR,1,26,3.85
+LLM Engineer,Microservice architecture,1,26,3.85
+LLM Engineer,GraphQL,1,26,3.85
+LLM Engineer,text-to-speech,1,26,3.85
+LLM Engineer,speech-to-text,1,26,3.85
+LLM Engineer,NestJS,1,26,3.85
+LLM Engineer,debugging,1,26,3.85
+LLM Engineer,distributed workloads,1,26,3.85
+LLM Engineer,high-throughput inference serving,1,26,3.85
+LLM Engineer,performance profiling and trace analysis,1,26,3.85
+LLM Engineer,AI model training,1,26,3.85
+LLM Engineer,large language models (LLMs),1,26,3.85
+LLM Engineer,GPU kernel programming,1,26,3.85
+LLM Engineer,AI model evaluation,1,26,3.85
+LLM Engineer,automated evaluation,1,26,3.85
+LLM Engineer,voice-agent or dialogue-system design,1,26,3.85
+LLM Engineer,model monitoring,1,26,3.85
+LLM Engineer,GraphQL APIs,1,26,3.85
+LLM Engineer,dialogue-system design,1,26,3.85
+LLM Engineer,MLOps pipelines,1,26,3.85
+LLM Engineer,RAG frameworks,1,26,3.85
+LLM Engineer,voice-agent design,1,26,3.85
+LLM Engineer,Azure services,1,26,3.85
+LLM Engineer,fine-tuning approaches,1,26,3.85
+LLM Engineer,Apache Airflow,1,26,3.85
+LLM Engineer,Lambda,1,26,3.85
+LLM Engineer,monitoring,1,26,3.85
+LLM Engineer,Redshift,1,26,3.85
+LLM Engineer,ECS/EKS,1,26,3.85
+LLM Engineer,MLOps practices,1,26,3.85
+LLM Engineer,Pulumi,1,26,3.85
+LLM Engineer,infrastructure-as-code,1,26,3.85
+LLM Engineer,S3,1,26,3.85
+LLM Engineer,model architectures,1,26,3.85
+LLM Engineer,automated testing,1,26,3.85
+LLM Engineer,coordination,1,26,3.85
+LLM Engineer,CrewAI,1,26,3.85
+LLM Engineer,continuous delivery pipelines,1,26,3.85
+LLM Engineer,Site Reliability Engineering (SRE),1,26,3.85
+LLM Engineer,state management,1,26,3.85
+LLM Engineer,memory management,1,26,3.85
+LLM Engineer,planning,1,26,3.85
+LLM Engineer,infrastructure as code,1,26,3.85
+LLM Engineer,container orchestration,1,26,3.85
+LLM Engineer,tool-calling,1,26,3.85
+LLM Engineer,LangChain,1,26,3.85
+LLM Engineer,workflow control,1,26,3.85
+LLM Engineer,Agentic coding,1,26,3.85
+LLM Engineer,large language model inference,1,26,3.85
+LLM Engineer,inference-time quantization,1,26,3.85
+LLM Engineer,continuous integration and delivery,1,26,3.85
+LLM Engineer,multi-step reasoning,1,26,3.85
+LLM Engineer,agentic AI workflows,1,26,3.85
+LLM Engineer,LLM prompt engineering,1,26,3.85
+LLM Engineer,governance controls,1,26,3.85
+LLM Engineer,prompt evaluation,1,26,3.85
+LLM Engineer,grounding,1,26,3.85
+LLM Engineer,software deployment processes,1,26,3.85
+LLM Engineer,IVR solutions,1,26,3.85
+LLM Engineer,agentic AI architecture,1,26,3.85
+LLM Engineer,AI safety,1,26,3.85
+LLM Engineer,security,1,26,3.85
+LLM Engineer,chatbots,1,26,3.85
+LLM Engineer,voice AI,1,26,3.85
+MLOps Engineer,Python,11,25,44.0
+MLOps Engineer,Machine Learning,9,25,36.0
+MLOps Engineer,Terraform,8,25,32.0
+MLOps Engineer,Kubernetes,8,25,32.0
+MLOps Engineer,AWS,8,25,32.0
+MLOps Engineer,CI/CD,8,25,32.0
+MLOps Engineer,MLOps,7,25,28.0
+MLOps Engineer,Docker,6,25,24.0
+MLOps Engineer,Azure,5,25,20.0
+MLOps Engineer,Go,4,25,16.0
+MLOps Engineer,AI,4,25,16.0
+MLOps Engineer,Google Cloud Platform,3,25,12.0
+MLOps Engineer,OpenTelemetry,3,25,12.0
+MLOps Engineer,Java,3,25,12.0
+MLOps Engineer,Prometheus,3,25,12.0
+MLOps Engineer,Grafana,3,25,12.0
+MLOps Engineer,MLflow,2,25,8.0
+MLOps Engineer,model monitoring,2,25,8.0
+MLOps Engineer,infrastructure as code,2,25,8.0
+MLOps Engineer,Infrastructure-as-Code (IaC),2,25,8.0
+MLOps Engineer,Kubeflow,2,25,8.0
+MLOps Engineer,CI/CD pipelines,2,25,8.0
+MLOps Engineer,Agentic AI,2,25,8.0
+MLOps Engineer,C++,2,25,8.0
+MLOps Engineer,Infrastructure-as-Code,2,25,8.0
+MLOps Engineer,Triton,1,25,4.0
+MLOps Engineer,PyTorch,1,25,4.0
+MLOps Engineer,TensorFlow,1,25,4.0
+MLOps Engineer,feature stores,1,25,4.0
+MLOps Engineer,Large Language Models,1,25,4.0
+MLOps Engineer,model registries,1,25,4.0
+MLOps Engineer,Node.js,1,25,4.0
+MLOps Engineer,Infrastructure as Code (IaC),1,25,4.0
+MLOps Engineer,debugging,1,25,4.0
+MLOps Engineer,distributed workloads,1,25,4.0
+MLOps Engineer,high-throughput inference serving,1,25,4.0
+MLOps Engineer,performance profiling and trace analysis,1,25,4.0
+MLOps Engineer,AI model training,1,25,4.0
+MLOps Engineer,large language models (LLMs),1,25,4.0
+MLOps Engineer,GPU kernel programming,1,25,4.0
+MLOps Engineer,AI model evaluation,1,25,4.0
+MLOps Engineer,Apache Airflow,1,25,4.0
+MLOps Engineer,Generative AI solutions,1,25,4.0
+MLOps Engineer,LLMOps,1,25,4.0
+MLOps Engineer,Prefect,1,25,4.0
+MLOps Engineer,LLM inference pipelines,1,25,4.0
+MLOps Engineer,Retrieval-Augmented Generation,1,25,4.0
+MLOps Engineer,Metaflow,1,25,4.0
+MLOps Engineer,Langfuse,1,25,4.0
+MLOps Engineer,agentic AI workflows,1,25,4.0
+MLOps Engineer,agentic AI systems,1,25,4.0
+MLOps Engineer,molecular modeling,1,25,4.0
+MLOps Engineer,feature store,1,25,4.0
+MLOps Engineer,terraform,1,25,4.0
+MLOps Engineer,algorithms,1,25,4.0
+MLOps Engineer,model registry,1,25,4.0
+MLOps Engineer,managing,1,25,4.0
+MLOps Engineer,deploying,1,25,4.0
+MLOps Engineer,platform engineering best practices,1,25,4.0
+MLOps Engineer,DevOps workflows,1,25,4.0
+MLOps Engineer,"building a secure, scalable, and cost-optimized platform for AI workloads",1,25,4.0
+MLOps Engineer,GitHub Actions,1,25,4.0
+MLOps Engineer,OpenTofu,1,25,4.0
+MLOps Engineer,Linux,1,25,4.0
+MLOps Engineer,Weights & Biases,1,25,4.0
+MLOps Engineer,ELK,1,25,4.0
+MLOps Engineer,FastAPI,1,25,4.0
+MLOps Engineer,Django,1,25,4.0
+MLOps Engineer,Flask,1,25,4.0
+MLOps Engineer,recommendation_systems,1,25,4.0
+MLOps Engineer,biomedical data,1,25,4.0
+MLOps Engineer,neural networks,1,25,4.0
+MLOps Engineer,TensorRT,1,25,4.0
+MLOps Engineer,ffmpeg,1,25,4.0
+MLOps Engineer,DeepStream SDK,1,25,4.0
+MLOps Engineer,OTA,1,25,4.0
+MLOps Engineer,AWS IoT Greengrass,1,25,4.0
+MLOps Engineer,GStreamer,1,25,4.0
+MLOps Engineer,MLOps practices,1,25,4.0
+MLOps Engineer,model lifecycle management,1,25,4.0
+MLOps Engineer,Azure DevOps,1,25,4.0
+MLOps Engineer,Azure ML,1,25,4.0
+MLOps Engineer,Bedrock,1,25,4.0
+MLOps Engineer,SageMaker,1,25,4.0
+MLOps Engineer,DevOps practices,1,25,4.0
+MLOps Engineer,Monitoring,1,25,4.0
+MLOps Engineer,alerting,1,25,4.0
+MLOps Engineer,Infrastructure as Code,1,25,4.0
+MLOps Engineer,Generative AI,1,25,4.0
+MLOps Engineer,GenAI solutions,1,25,4.0
+MLOps Engineer,Databricks,1,25,4.0
+MLOps Engineer,Pulumi,1,25,4.0
+MLOps Engineer,Kotlin,1,25,4.0
+MLOps Engineer,CloudFormation,1,25,4.0
+MLOps Engineer,Scala,1,25,4.0
+MLOps Engineer,cloud infrastructure,1,25,4.0
+Machine Learning Engineer,Machine Learning,16,23,69.57
+Machine Learning Engineer,Python,13,23,56.52
+Machine Learning Engineer,PyTorch,8,23,34.78
+Machine Learning Engineer,NumPy,5,23,21.74
+Machine Learning Engineer,AI,3,23,13.04
+Machine Learning Engineer,Large Language Models,3,23,13.04
+Machine Learning Engineer,AWS,3,23,13.04
+Machine Learning Engineer,scientific computing,3,23,13.04
+Machine Learning Engineer,profiling,3,23,13.04
+Machine Learning Engineer,optimisation methods,3,23,13.04
+Machine Learning Engineer,HPC,3,23,13.04
+Machine Learning Engineer,model inference,3,23,13.04
+Machine Learning Engineer,deep learning,3,23,13.04
+Machine Learning Engineer,C++,3,23,13.04
+Machine Learning Engineer,TensorFlow,3,23,13.04
+Machine Learning Engineer,JAX,3,23,13.04
+Machine Learning Engineer,Azure,2,23,8.7
+Machine Learning Engineer,Vertex AI,2,23,8.7
+Machine Learning Engineer,BigQuery,2,23,8.7
+Machine Learning Engineer,Google Cloud Platform,2,23,8.7
+Machine Learning Engineer,NLP,2,23,8.7
+Machine Learning Engineer,Agentic Workflows,2,23,8.7
+Machine Learning Engineer,Kaggle,2,23,8.7
+Machine Learning Engineer,Agentic AI,2,23,8.7
+Machine Learning Engineer,quality dashboards,1,23,4.35
+Machine Learning Engineer,multi-step and agentic systems,1,23,4.35
+Machine Learning Engineer,automated scoring pipelines,1,23,4.35
+Machine Learning Engineer,LLM-as-judge systems,1,23,4.35
+Machine Learning Engineer,rubric-based grading,1,23,4.35
+Machine Learning Engineer,prompting techniques,1,23,4.35
+Machine Learning Engineer,agent architectures,1,23,4.35
+Machine Learning Engineer,agentic AI systems,1,23,4.35
+Machine Learning Engineer,inference optimisation,1,23,4.35
+Machine Learning Engineer,regression testing suites,1,23,4.35
+Machine Learning Engineer,MLOps,1,23,4.35
+Machine Learning Engineer,frontier LLMs,1,23,4.35
+Machine Learning Engineer,chained multi-agent architectures,1,23,4.35
+Machine Learning Engineer,AI agent,1,23,4.35
+Machine Learning Engineer,Agent architectures,1,23,4.35
+Machine Learning Engineer,Data Science,1,23,4.35
+Machine Learning Engineer,agent-based systems,1,23,4.35
+Machine Learning Engineer,Machine Learning Engineer,1,23,4.35
+Machine Learning Engineer,automated scoring,1,23,4.35
+Machine Learning Engineer,multi-step agentic systems,1,23,4.35
+Machine Learning Engineer,benchmark systems,1,23,4.35
+Machine Learning Engineer,online data science competitions,1,23,4.35
+Machine Learning Engineer,modern ML techniques,1,23,4.35
+Machine Learning Engineer,custom libraries,1,23,4.35
+Machine Learning Engineer,hand optimised machine learning operations,1,23,4.35
+Machine Learning Engineer,ML techniques,1,23,4.35
+Machine Learning Engineer,data science,1,23,4.35
+Machine Learning Engineer,quantitative finance,1,23,4.35
+Machine Learning Engineer,uncertainty quantification,1,23,4.35
+Machine Learning Engineer,digital twins,1,23,4.35
+Machine Learning Engineer,surrogate models,1,23,4.35
+Machine Learning Engineer,model-governance,1,23,4.35
+Machine Learning Engineer,hybrid cloud environments,1,23,4.35
+Machine Learning Engineer,scikit-learn,1,23,4.35
+Machine Learning Engineer,Linux,1,23,4.35
+Machine Learning Engineer,Gitlab/Git,1,23,4.35
+Machine Learning Engineer,HPC environments,1,23,4.35
+Machine Learning Engineer,pandas,1,23,4.35
+Machine Learning Engineer,Java,1,23,4.35
+Machine Learning Engineer,APIs,1,23,4.35
+Machine Learning Engineer,ML/AI methods,1,23,4.35
+Machine Learning Engineer,Artificial Intelligence,1,23,4.35
+Machine Learning Engineer,Large Language Models (LLMs),1,23,4.35
+Machine Learning Engineer,ML operations,1,23,4.35
+Machine Learning Engineer,K8s,1,23,4.35
+Machine Learning Engineer,computational statistics,1,23,4.35
+Machine Learning Engineer,Reinforcement Learning,1,23,4.35
+Machine Learning Engineer,Docker,1,23,4.35
+Machine Learning Engineer,C/C++,1,23,4.35
+Machine Learning Engineer,Unity,1,23,4.35
+Machine Learning Engineer,Large language models (LLMs),1,23,4.35
+Machine Learning Engineer,multi-modal models,1,23,4.35
+Machine Learning Engineer,Unreal Engine,1,23,4.35
+Machine Learning Engineer,audio models,1,23,4.35
+Machine Learning Engineer,Machine Learning models,1,23,4.35
+Machine Learning Engineer,optimization,1,23,4.35
+Machine Learning Engineer,foundational AI models,1,23,4.35
+Machine Learning Engineer,Generative AI,1,23,4.35
+Machine Learning Engineer,model architectures,1,23,4.35
+Machine Learning Engineer,computational fluid dynamics,1,23,4.35
+Machine Learning Engineer,generalisation,1,23,4.35
+Machine Learning Engineer,CFD,1,23,4.35
+Machine Learning Engineer,ML models,1,23,4.35
+Machine Learning Engineer,CUDA,1,23,4.35
+Machine Learning Engineer,Horovod,1,23,4.35
+Machine Learning Engineer,NCCL,1,23,4.35

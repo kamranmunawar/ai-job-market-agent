@@ -1,0 +1,50 @@
+from job_description_fetcher import JobDescriptionFetcherTool
+from skill_extractor import SkillExtractorTool
+from skill_normalizer import SkillNormalizerTool
+from models import Job
+from employer_job_finder import EmployerJobFinderTool
+
+class JobProcessor:
+
+    def __init__(self):
+        self.description_tool = JobDescriptionFetcherTool()
+        self.skill_tool = SkillExtractorTool()
+        self.normalizer_tool = SkillNormalizerTool()
+        self.employer_finder = EmployerJobFinderTool()
+
+    def process(self, job: Job) -> Job:
+        try:
+            # Fetch full or partial description
+            description, source = self.description_tool.fetch(
+                job.url,
+                fallback_description=job.description
+            )
+
+            job.description = description
+            job.description_source = source
+
+            # Extract skills
+            raw_skills = self.skill_tool.extract(job.description)
+            job.skills = self.normalizer_tool.normalize(raw_skills)
+
+            skill_count = sum(
+                len(values)
+                for values in job.skills.model_dump().values()
+            )
+
+            if skill_count == 0:
+                job.processing_status = "needs_review"
+                print(
+                    "WARNING: No skills extracted. "
+                    "Job marked for review."
+                )
+            else:
+                job.processing_status = "completed"
+
+            print(f"Extracted skill entries: {skill_count}")
+
+        except Exception as error:
+            job.processing_status = "failed"
+            print(f"Failed to process {job.title}: {error}")
+
+        return job

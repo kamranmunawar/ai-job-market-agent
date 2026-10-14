@@ -1,0 +1,186 @@
+Here are the commands to start your AI Job Market Agent, discover new vacancies, process them with Ollama, update the reports, and run the Streamlit dashboard.
+
+All commands assume you're using Ubuntu and your existing project.
+
+## 1. Start Ollama
+
+Open a terminal:
+
+```
+ollama serve
+```
+
+If Ollama is already running as a service, you don't need to start it again.
+
+In another terminal, check the model:
+
+```
+ollama list
+ollama ps
+```
+
+Your agent currently uses Qwen3.5 for skill extraction. Make sure the model configured in `src/skill_extractor.py` is available.
+
+## 2. Activate your Python environment
+
+```
+cd ~/PycharmProjects/ai-job-market-agent
+source .venv/bin/activate
+```
+
+## 3. Discover new jobs and process them
+
+```
+python src/main.py
+```
+
+This runs your normal pipeline:
+
+1. Search Adzuna for AI-related vacancies.
+2. Save newly discovered jobs in SQLite.
+3. Select jobs for processing.
+4. Search for matching full descriptions.
+5. Extract skills using Ollama.
+6. Save the results.
+
+Your current configuration processes a limited number of jobs per run, so you may need to run it multiple times.
+
+## 4. Process remaining pending jobs
+
+To process up to 20 pending jobs without searching Adzuna again:
+
+```
+python src/main.py --process-pending --limit 20
+```
+
+To process up to 100:
+
+```
+python src/main.py --process-pending --limit 100
+```
+
+## 5. Retry jobs needing review
+
+Your separate recovery script attempts to find better descriptions for jobs that previously produced no skills:
+
+```
+python src/reprocess_review_batch.py --limit 10
+```
+
+This script only saves successful recoveries. However, it may retry the same unrecoverable jobs on subsequent runs because we haven't implemented recovery-attempt tracking yet.
+
+## 6. Regenerate the skill reports
+
+```
+python src/skill_report.py
+```
+
+This refreshes:
+
+- `reports/skills_overall.csv`
+- `reports/skills_by_category.csv`
+
+Your dashboard reads SQLite directly, so it doesn't require the CSV export to be refreshed first.
+
+## 7. Launch the dashboard
+
+```
+python -m streamlit run src/dashboard.py
+```
+
+Open:
+
+[http://localhost:8501](http://localhost:8501)
+
+Keep the Streamlit terminal running while using the dashboard. It will read updated database results when the app reruns or you refresh it.
+
+## Daily workflow — commands to copy and run
+
+Once Ollama is running, you can use this sequence whenever you want fresh results:
+
+```
+
+cd ~/PycharmProjects/ai-job-market-agent
+
+source .venv/bin/activate
+
+# Discover new jobs and process the first batch
+python src/main.py
+
+# Process more pending jobs
+python src/main.py --process-pending --limit 100
+
+# Regenerate CSV reports
+python src/skill_report.py
+
+# Start the dashboard
+python -m streamlit run src/dashboard.py
+
+```
+
+## Keep it updated automatically
+
+Your agent doesn't yet have a built-in scheduler. The simplest option is to create a daily shell script and run it using Linux `cron`.
+
+Create `run_daily.sh` in your project directory:
+
+```
+
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd /home/kamran/PycharmProjects/ai-job-market-agent
+
+# Prevent overlapping scheduled runs
+exec 9>data/agent_daily.lock
+flock -n 9 || exit 0
+
+# Activate Python environment
+source .venv/bin/activate
+
+# Discover and process new jobs
+python src/main.py
+
+# Process up to 100 pending jobs
+python src/main.py --process-pending --limit 100
+
+# Refresh CSV reports
+python src/skill_report.py
+
+```
+
+Make it executable:
+
+```
+chmod +x run_daily.sh
+```
+
+Test it manually:
+
+```
+./run_daily.sh
+```
+
+If successful, schedule it:
+
+```
+crontab -e
+```
+
+Add this line to run every day at 8 AM:
+
+```
+0 8 * * * /home/kamran/PycharmProjects/ai-job-market-agent/run_daily.sh >> /home/kamran/PycharmProjects/ai-job-market-agent/data/daily_run.log 2>&1
+```
+
+Check the log:
+
+```
+tail -n 100 data/daily_run.log
+```
+
+This runs automatically provided your Ubuntu machine is powered on, Ollama is available, and your Adzuna credentials are configured. Cron does not run missed jobs automatically when the machine is switched off.
+
+The dashboard can be started separately whenever you want to inspect the results.
+
+My recommendation: Use the manual daily workflow initially, then enable cron once you've confirmed that discovery and processing work reliably across several runs.

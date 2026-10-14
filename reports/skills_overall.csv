@@ -1,0 +1,478 @@
+skill,job_count,total_jobs,percentage
+Python,55,107,51.4
+Machine Learning,40,107,37.38
+Large Language Models,32,107,29.91
+Agentic AI,24,107,22.43
+CI/CD,19,107,17.76
+AWS,18,107,16.82
+MLOps,17,107,15.89
+PyTorch,16,107,14.95
+Generative AI,16,107,14.95
+Azure,15,107,14.02
+Docker,14,107,13.08
+Kubernetes,13,107,12.15
+AI,11,107,10.28
+Retrieval-Augmented Generation,10,107,9.35
+Google Cloud Platform,10,107,9.35
+Terraform,9,107,8.41
+C++,8,107,7.48
+Java,7,107,6.54
+deep learning,7,107,6.54
+NumPy,6,107,5.61
+Go,6,107,5.61
+LangGraph,6,107,5.61
+LangChain,5,107,4.67
+Agentic Workflows,5,107,4.67
+SQL,5,107,4.67
+JAX,5,107,4.67
+TensorFlow,5,107,4.67
+MLflow,5,107,4.67
+Git,5,107,4.67
+Data Science,4,107,3.74
+FastAPI,4,107,3.74
+NLP,4,107,3.74
+OpenTelemetry,4,107,3.74
+Prometheus,4,107,3.74
+Grafana,4,107,3.74
+scientific computing,4,107,3.74
+Weights & Biases,4,107,3.74
+containerisation,4,107,3.74
+scikit-learn,3,107,2.8
+Large Language Models (LLMs),3,107,2.8
+orchestration frameworks,3,107,2.8
+prompt engineering,3,107,2.8
+Model Context Protocol (MCP),3,107,2.8
+Vertex AI,3,107,2.8
+GitHub Actions,3,107,2.8
+fine-tuning,3,107,2.8
+CI/CD pipelines,3,107,2.8
+APIs,3,107,2.8
+model monitoring,3,107,2.8
+infrastructure as code,3,107,2.8
+multi-agent orchestration,3,107,2.8
+tool use,3,107,2.8
+profiling,3,107,2.8
+optimisation methods,3,107,2.8
+HPC,3,107,2.8
+model inference,3,107,2.8
+ML models,3,107,2.8
+PySpark,3,107,2.8
+R,3,107,2.8
+Kubeflow,3,107,2.8
+conversational AI,3,107,2.8
+orchestration,3,107,2.8
+Semantic Kernel,2,107,1.87
+LlamaIndex,2,107,1.87
+LLMOps,2,107,1.87
+Pandas,2,107,1.87
+Retrieval-Augmented Generation (RAG),2,107,1.87
+prompt evaluation,2,107,1.87
+Artificial Intelligence,2,107,1.87
+Agent frameworks,2,107,1.87
+Vector Databases,2,107,1.87
+DevOps practices,2,107,1.87
+BigQuery,2,107,1.87
+agentic AI systems,2,107,1.87
+object detection,2,107,1.87
+Triton,2,107,1.87
+agent-based systems,2,107,1.87
+agentic solutions,2,107,1.87
+C#,2,107,1.87
+retrieval strategies,2,107,1.87
+foundation models,2,107,1.87
+retrieval-augmented generation (RAG),2,107,1.87
+testing,2,107,1.87
+Kaggle,2,107,1.87
+data science,2,107,1.87
+Linux,2,107,1.87
+K8s,2,107,1.87
+model architectures,2,107,1.87
+CUDA,2,107,1.87
+NCCL,2,107,1.87
+regression,2,107,1.87
+PowerBI,2,107,1.87
+ECR,2,107,1.87
+graph databases,2,107,1.87
+Neo4j,2,107,1.87
+AWS ECS,2,107,1.87
+Ray,2,107,1.87
+multi-agent systems,2,107,1.87
+Hadoop,2,107,1.87
+model lifecycle management,2,107,1.87
+NoSql data modelling,2,107,1.87
+monitoring,2,107,1.87
+statistical modelling,2,107,1.87
+machine learning algorithms,2,107,1.87
+optimisation techniques,2,107,1.87
+observability,2,107,1.87
+Spark,2,107,1.87
+autonomous agents,2,107,1.87
+agent-to-agent communication,2,107,1.87
+distributed training,2,107,1.87
+vLLM,2,107,1.87
+TensorRT,2,107,1.87
+tool calling,2,107,1.87
+React,2,107,1.87
+microservices,2,107,1.87
+Functions,2,107,1.87
+Cognitive Services,2,107,1.87
+RESTful APIs,2,107,1.87
+Next.js,2,107,1.87
+MySQL,2,107,1.87
+App Services,2,107,1.87
+Apache Airflow,2,107,1.87
+MLOps practices,2,107,1.87
+Pulumi,2,107,1.87
+AI agent workflows,2,107,1.87
+agentic AI workflows,2,107,1.87
+Infrastructure-as-Code (IaC),2,107,1.87
+Infrastructure-as-Code,2,107,1.87
+SAP BTP,1,107,0.93
+Embeddings,1,107,0.93
+Large Language Model (LLM),1,107,0.93
+Weaviate,1,107,0.93
+JavaScript,1,107,0.93
+Pinecone,1,107,0.93
+FAISS,1,107,0.93
+Multi-Agent Systems,1,107,0.93
+Azure AI Search,1,107,0.93
+audio-processing pipelines,1,107,0.93
+vector database architectures,1,107,0.93
+AutoGen,1,107,0.93
+LangSmith,1,107,0.93
+Hugging Face,1,107,0.93
+Context engineering,1,107,0.93
+RAG pipelines (Retrieval-Augmented Generation),1,107,0.93
+Knowledge graphs,1,107,0.93
+Prompt engineering,1,107,0.93
+"Genie Platform (reason, retrieve, act)",1,107,0.93
+Model evaluation,1,107,0.93
+LLMOps tools,1,107,0.93
+TruLens,1,107,0.93
+Agentic architectures,1,107,0.93
+DevSecOps practices,1,107,0.93
+quality dashboards,1,107,0.93
+multi-step and agentic systems,1,107,0.93
+automated scoring pipelines,1,107,0.93
+LLM-as-judge systems,1,107,0.93
+rubric-based grading,1,107,0.93
+prompting techniques,1,107,0.93
+agent architectures,1,107,0.93
+inference optimisation,1,107,0.93
+regression testing suites,1,107,0.93
+frontier LLMs,1,107,0.93
+chained multi-agent architectures,1,107,0.93
+MongoDB Atlas Vector Search,1,107,0.93
+rerankers,1,107,0.93
+data indexing,1,107,0.93
+vector embeddings,1,107,0.93
+Ultralytics YOLO26,1,107,0.93
+YOLO,1,107,0.93
+YOLO framework,1,107,0.93
+multimodal solutions,1,107,0.93
+RAG pipeline,1,107,0.93
+performance optimization,1,107,0.93
+LiteLLM,1,107,0.93
+MongoDB,1,107,0.93
+computer vision,1,107,0.93
+orchestration systems,1,107,0.93
+open-weight models,1,107,0.93
+AI agent,1,107,0.93
+Agent architectures,1,107,0.93
+Machine Learning Engineer,1,107,0.93
+automated scoring,1,107,0.93
+multi-step agentic systems,1,107,0.93
+benchmark systems,1,107,0.93
+reusable skills,1,107,0.93
+monoagents,1,107,0.93
+shared memory,1,107,0.93
+feature stores,1,107,0.93
+model registries,1,107,0.93
+Node.js,1,107,0.93
+Infrastructure as Code (IaC),1,107,0.93
+Microsoft P...,1,107,0.93
+autonomous systems,1,107,0.93
+Azure AI,1,107,0.93
+neural network resilience,1,107,0.93
+AI assurance,1,107,0.93
+Agentic Engineering,1,107,0.93
+agentic systems,1,107,0.93
+MCP servers,1,107,0.93
+sandboxing,1,107,0.93
+observability tooling,1,107,0.93
+tool-use,1,107,0.93
+prompt construction,1,107,0.93
+evaluation and observability for AI systems,1,107,0.93
+LoRA,1,107,0.93
+memory (AI),1,107,0.93
+gRPC,1,107,0.93
+Pydantic AI,1,107,0.93
+DPO,1,107,0.93
+MCPs,1,107,0.93
+multi-step workflows,1,107,0.93
+knowledge engineering,1,107,0.93
+AI/ML,1,107,0.93
+LLM integration,1,107,0.93
+agent augmentation,1,107,0.93
+context management,1,107,0.93
+production AI agent engineering,1,107,0.93
+evaluation pipelines,1,107,0.93
+model selection and routing,1,107,0.93
+agent behaviour,1,107,0.93
+retrieval,1,107,0.93
+prompting,1,107,0.93
+scalsible agentic AI platforms,1,107,0.93
+production,1,107,0.93
+LLM-powered systems,1,107,0.93
+evaluations,1,107,0.93
+online data science competitions,1,107,0.93
+modern ML techniques,1,107,0.93
+custom libraries,1,107,0.93
+hand optimised machine learning operations,1,107,0.93
+ML techniques,1,107,0.93
+quantitative finance,1,107,0.93
+uncertainty quantification,1,107,0.93
+digital twins,1,107,0.93
+surrogate models,1,107,0.93
+model-governance,1,107,0.93
+hybrid cloud environments,1,107,0.93
+Gitlab/Git,1,107,0.93
+HPC environments,1,107,0.93
+pandas,1,107,0.93
+ML/AI methods,1,107,0.93
+ML operations,1,107,0.93
+computational statistics,1,107,0.93
+Reinforcement Learning,1,107,0.93
+C/C++,1,107,0.93
+Unity,1,107,0.93
+Large language models (LLMs),1,107,0.93
+multi-modal models,1,107,0.93
+Unreal Engine,1,107,0.93
+audio models,1,107,0.93
+Machine Learning models,1,107,0.93
+optimization,1,107,0.93
+foundational AI models,1,107,0.93
+computational fluid dynamics,1,107,0.93
+generalisation,1,107,0.93
+CFD,1,107,0.93
+Horovod,1,107,0.93
+Google Cloud Platform (GCP),1,107,0.93
+Unity Catalog,1,107,0.93
+recommendation algorithms,1,107,0.93
+optimisation problems,1,107,0.93
+Databricks Model Registry,1,107,0.93
+Data Studio/Looker Studio,1,107,0.93
+ETL pipelines,1,107,0.93
+Numpy,1,107,0.93
+classification,1,107,0.93
+time-series,1,107,0.93
+statistical analysis,1,107,0.93
+A/B testing,1,107,0.93
+predictive analytics,1,107,0.93
+Spark SQL,1,107,0.93
+Azure Databricks,1,107,0.93
+technical_leadership,1,107,0.93
+cybersecurity_analytics,1,107,0.93
+GraphRAG,1,107,0.93
+attack_path_analysis,1,107,0.93
+Security_Knowledge_Graphs,1,107,0.93
+exposure_prioritization,1,107,0.93
+semantic_modeling,1,107,0.93
+graph_engineering,1,107,0.93
+threat_investigation,1,107,0.93
+data_science,1,107,0.93
+AI-assisted_securitization,1,107,0.93
+Bayesian,1,107,0.93
+causal inference model,1,107,0.93
+Looker,1,107,0.93
+Geolift test,1,107,0.93
+statistics,1,107,0.93
+PyMc,1,107,0.93
+econometric modelling,1,107,0.93
+Meridian,1,107,0.93
+Robyn,1,107,0.93
+experimental design,1,107,0.93
+MLOps tools,1,107,0.93
+containers,1,107,0.93
+time-series models,1,107,0.93
+vision models,1,107,0.93
+Hive,1,107,0.93
+continuous deployment and release,1,107,0.93
+big data technologies,1,107,0.93
+Cloud Platforms,1,107,0.93
+Agentic AI concepts,1,107,0.93
+service operations,1,107,0.93
+relational data modeling,1,107,0.93
+configuration management and release,1,107,0.93
+Agility core practices,1,107,0.93
+distributed systems,1,107,0.93
+reasoning workflows,1,107,0.93
+Scripting,1,107,0.93
+monitoring systems,1,107,0.93
+Software Design and Development,1,107,0.93
+Documentation and knowledge sharing,1,107,0.93
+agent-driven scientific discovery,1,107,0.93
+reliability engineering,1,107,0.93
+multimodal systems,1,107,0.93
+MLOps platforms,1,107,0.93
+scalable architectures,1,107,0.93
+Relational Data Modeling,1,107,0.93
+Database Design,1,107,0.93
+API design,1,107,0.93
+autonomic agent design,1,107,0.93
+agentic,1,107,0.93
+capabilities,1,107,0.93
+performance evaluation,1,107,0.93
+reliability,1,107,0.93
+Build,1,107,0.93
+operate,1,107,0.93
+agent,1,107,0.93
+LLM agents,1,107,0.93
+A2A,1,107,0.93
+Agentic Orchestrators,1,107,0.93
+Azure OpenAI models,1,107,0.93
+AWS Bedrock,1,107,0.93
+agentic orchestrators,1,107,0.93
+AI skills development,1,107,0.93
+NoSQL databases,1,107,0.93
+personal AI assistants,1,107,0.93
+containerization,1,107,0.93
+Agentic Systems,1,107,0.93
+foundational models,1,107,0.93
+low-precision methods,1,107,0.93
+compilers,1,107,0.93
+collective communication libraries,1,107,0.93
+parallelism strategies,1,107,0.93
+accelerator DSLs,1,107,0.93
+inference systems,1,107,0.93
+GPU architectures,1,107,0.93
+LLM serving stacks,1,107,0.93
+supervised fine-tuning,1,107,0.93
+frontier models,1,107,0.93
+XLA,1,107,0.93
+Pallas,1,107,0.93
+production systems,1,107,0.93
+reinforcement learning,1,107,0.93
+low-precision formats,1,107,0.93
+DeepSpeed,1,107,0.93
+transformer-based approaches,1,107,0.93
+TeamCity,1,107,0.93
+NVIDIA GPUs,1,107,0.93
+HuggingFace,1,107,0.93
+pre-training,1,107,0.93
+SGLang,1,107,0.93
+KServe,1,107,0.93
+production deployment,1,107,0.93
+post-training quantization,1,107,0.93
+transformer inference systems,1,107,0.93
+Triton Inference Server,1,107,0.93
+distillation,1,107,0.93
+quantization-aware training,1,107,0.93
+Ray Serve,1,107,0.93
+NVIDIA Dynamo,1,107,0.93
+benchmark harnesses,1,107,0.93
+speculative decoding,1,107,0.93
+VLM,1,107,0.93
+structured outputs,1,107,0.93
+multi-step orchestration,1,107,0.93
+TensorRT-LLM,1,107,0.93
+Mistral,1,107,0.93
+JavaScript/TypeScript,1,107,0.93
+voice-agent,1,107,0.93
+LLaMA,1,107,0.93
+DTAC,1,107,0.93
+GPT,1,107,0.93
+GDPR,1,107,0.93
+Microservice architecture,1,107,0.93
+GraphQL,1,107,0.93
+text-to-speech,1,107,0.93
+speech-to-text,1,107,0.93
+NestJS,1,107,0.93
+debugging,1,107,0.93
+distributed workloads,1,107,0.93
+high-throughput inference serving,1,107,0.93
+performance profiling and trace analysis,1,107,0.93
+AI model training,1,107,0.93
+large language models (LLMs),1,107,0.93
+GPU kernel programming,1,107,0.93
+AI model evaluation,1,107,0.93
+automated evaluation,1,107,0.93
+voice-agent or dialogue-system design,1,107,0.93
+GraphQL APIs,1,107,0.93
+dialogue-system design,1,107,0.93
+MLOps pipelines,1,107,0.93
+RAG frameworks,1,107,0.93
+voice-agent design,1,107,0.93
+Azure services,1,107,0.93
+fine-tuning approaches,1,107,0.93
+Lambda,1,107,0.93
+Redshift,1,107,0.93
+ECS/EKS,1,107,0.93
+infrastructure-as-code,1,107,0.93
+S3,1,107,0.93
+automated testing,1,107,0.93
+coordination,1,107,0.93
+CrewAI,1,107,0.93
+continuous delivery pipelines,1,107,0.93
+Site Reliability Engineering (SRE),1,107,0.93
+state management,1,107,0.93
+memory management,1,107,0.93
+planning,1,107,0.93
+container orchestration,1,107,0.93
+tool-calling,1,107,0.93
+workflow control,1,107,0.93
+Agentic coding,1,107,0.93
+large language model inference,1,107,0.93
+inference-time quantization,1,107,0.93
+continuous integration and delivery,1,107,0.93
+multi-step reasoning,1,107,0.93
+LLM prompt engineering,1,107,0.93
+governance controls,1,107,0.93
+grounding,1,107,0.93
+software deployment processes,1,107,0.93
+IVR solutions,1,107,0.93
+agentic AI architecture,1,107,0.93
+AI safety,1,107,0.93
+security,1,107,0.93
+chatbots,1,107,0.93
+voice AI,1,107,0.93
+Generative AI solutions,1,107,0.93
+Prefect,1,107,0.93
+LLM inference pipelines,1,107,0.93
+Metaflow,1,107,0.93
+Langfuse,1,107,0.93
+molecular modeling,1,107,0.93
+feature store,1,107,0.93
+terraform,1,107,0.93
+algorithms,1,107,0.93
+model registry,1,107,0.93
+managing,1,107,0.93
+deploying,1,107,0.93
+platform engineering best practices,1,107,0.93
+DevOps workflows,1,107,0.93
+"building a secure, scalable, and cost-optimized platform for AI workloads",1,107,0.93
+OpenTofu,1,107,0.93
+ELK,1,107,0.93
+Django,1,107,0.93
+Flask,1,107,0.93
+recommendation_systems,1,107,0.93
+biomedical data,1,107,0.93
+neural networks,1,107,0.93
+ffmpeg,1,107,0.93
+DeepStream SDK,1,107,0.93
+OTA,1,107,0.93
+AWS IoT Greengrass,1,107,0.93
+GStreamer,1,107,0.93
+Azure DevOps,1,107,0.93
+Azure ML,1,107,0.93
+Bedrock,1,107,0.93
+SageMaker,1,107,0.93
+Monitoring,1,107,0.93
+alerting,1,107,0.93
+Infrastructure as Code,1,107,0.93
+GenAI solutions,1,107,0.93
+Databricks,1,107,0.93
+Kotlin,1,107,0.93
+CloudFormation,1,107,0.93
+Scala,1,107,0.93
+cloud infrastructure,1,107,0.93
